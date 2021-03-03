@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Raleway:wght@300;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color:#343434;
+  line-height: 1.4;
+}
+
+
+a {
+  text-decoration: none;
+  color: #343434;
+}
+
+p {
+  padding: 0.75rem 0;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  
+}
+
+.text-primary {
+  color: #1976d2;
+}
+
+/* Navbar */
+
+#navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #eeeeee;
+  justify-content: space-between;  
+  padding: 1rem;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li a {
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+  color: #fafafa;
+  background: #1976d2;
+  border-radius: 5px;
+}
+
+/* Hero Area */
+
+#hero {
+  background: url(../img/hero-bcg.jpg) no-repeat center center/cover;
+  height: 100vh;
+  margin-top: -65px;
+}
+
+#hero .hero-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.tagline {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.p-hero {
+  font-size: 1.3rem;
+}
+
+.cta {
+  background: #1976d2;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 30px;
+  margin-top: 1rem;
+}
+
+.cta:hover {
+  background-color: #004ba0;
+}
+
+/* Section: Why To Learn */
+
+#why {
+  background: #fafafa;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+#why h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+}
+
+.items {
+  padding: 0 1rem;
+  
+}
+
+.items i {
+  color: #1976d2;
+  padding-bottom: 1rem;
+}
+
+.items-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Benefits*/
+
+#benefits {
+  display: flex;
+  background: #f5f5f5;
+}
+
+#benefits div {
+  flex: 1;
+}
+
+.benefit-text {
+  padding-bottom: 1.5rem;
+  padding-right: 2rem;
+}
+
+.benefit-img {
+  background: url(../img/christopher-gower-m_HRfLhgABo-unsplash.jpg) no-repeat center center/cover;
+}
+
+#benefits h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  padding: 2rem 0 1rem 2rem;
+}
+
+#benefits p, .benefits-subheading, ul {
+  padding-left: 2rem;
+}
+
+.benefits-subheading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding-top: 1.3rem;
+}
+
+.benefits-list {
+  list-style: none;
+  padding-top: 1rem;
+}
+
+.benefits-list li {
+  padding: 0.5rem 0;
+  border-bottom: #e0e0e0 dotted 1px;
+}
+
+/* Section: Where To Learn */
+
+#partners div {
+  display: flex;
+}
+
+#partners div img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+#partners h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  padding: 2rem 0 1rem 2rem;
+  text-align: center;
+}
+
+
